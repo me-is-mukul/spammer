@@ -1,6 +1,7 @@
 import pyautogui
 x=1
 a = input("enter message to spam : ")
+<<<<<<< HEAD
 b = int(input("enter amount of messages : "))
 c = int(input("press 0 if dont want nummbers at end\npress 1 if want numbers at end\n>>>"))
 if c==1:
@@ -14,3 +15,9 @@ elif c==0:
         pyautogui.press("enter")
         x+=1
 
+=======
+while True:
+    pyautogui.typewrite("{}".format(a))
+    pyautogui.press("enter")
+    x+=1
+>>>>>>> ad66f0e74a830becae1e5acedce5e328853715f3
