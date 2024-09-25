@@ -10,6 +10,6 @@ if c==1:
         x+=1
 elif c==0:
     while x<=b:
-        pyautogui.typewrite("{}".format(x))
+        pyautogui.typewrite("{}".format(a))
         pyautogui.press("enter")
         x+=1
