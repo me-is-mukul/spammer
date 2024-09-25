@@ -5,8 +5,11 @@ Spam Using this Python script
 Clone this repository and cd into it then enter the following commands.
 ```sh
 git clone https://github.com/me-is-mukul/spammer.git
+```
+```sh
 cd spammer/
 ```
+
 # Pre-Requisites
 Install Pautogui Library before running it
 ```sh
